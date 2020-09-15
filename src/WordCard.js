@@ -1,67 +1,68 @@
-import React,{useState,useEffect} from 'react';
-import _ from 'lodash';
+import React, { useState, useEffect } from 'react';
 import CharacterCard from './CharacterCard';
-import './App.css'
+import _ from 'lodash';
+import './App.css';
+
 const prepareStateFromWord = (given_word) => {
-        let word = given_word.toUpperCase()
-        let chars = _.shuffle(Array.from(word))
-        return {
+    let word = given_word.toUpperCase()
+    let chars = _.shuffle(Array.from(word))
+    return {
         word,
         chars,
         attempt: 1,
         guess: '',
         completed: false
-        }
     }
-export default function WordCard(props){
-    
+}
+export default function WordCard(props) {
     const [state, setState] = useState({
         word: '',
         chars: '',
         attempt: 1,
+        guess: '',
         completed: false
     })
     useEffect(() => {
-        let data = prepareStateFromWord(props.value)
+        let data = prepareStateFromWord(props.value);
         setState({
             ...state,
             word: data.word,
             chars: data.chars,
             attempt: data.attempt,
-            guess: data.attempt,
+            guess: data.guess,
             completed: data.completed
         })
-    },[])
-         
+    }, [])
     const activationHandler = (c) => {
         console.log(`${c} has been activated.`)
         let guess = state.guess + c
-        setState({...state, guess})
-        if(guess.length == state.word.length){
-            if(guess == state.word){
+        setState({ ...state, guess })
+        
+        if (guess.length == state.word.length) {
+            if (guess == state.word) {
                 console.log('yeah!')
                 alert('Congratulation! Your answer is correct.');
-                setState({...state, guess: '', completed: true})
-            }else{
+                window.location.reload();
+                setState({ ...state, guess: '', completed: true })
+            } else {
                 console.log('reset')
-                alert('Oop! Game will reset.');
-                setState({...state, guess: '', attempt: state.attempt + 1})
+                alert('Oop! Game will reset.'); 
+                setState({ ...state, guess: '', attempt: state.attempt + 1 })
             }
         }
     }
-    
-    return(
-        <div > 
-            {Array.from(state.chars).map((c,i)=><CharacterCard value={c} key={i} 
-            activationHandler={activationHandler}
-            attempt={state.attempt}/>)}
+    return (
+        <div>
+           
+            {Array.from(state.chars).map((c, i) => <CharacterCard value={c} key={i}
+                activationHandler={activationHandler}
+                attempt={state.attempt} />)}
             
         </div>
     );
-    
 }
        
-    
-
+ //alert('Oop! Game will reset.');    {/* <CharacterCard value={c} key={i} activationHandler={activationHandler}/> */}
+ //alert('Congratulation! Your answer is correct.');
 
  
