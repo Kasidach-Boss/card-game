@@ -56,5 +56,9 @@
   max-width: 100%;
   height: auto!important;
 }
-
+.bgcolor{
+  background-color: rgb(235, 177, 232);
+  width: 99vw;
+  height: 60vh;
+}
 
