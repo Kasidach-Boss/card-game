@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -57,8 +57,18 @@
   height: auto!important;
 }
 .bgcolor{
-  background-color: rgb(235, 177, 232);
+  color: white;
+  background-color: #282c34;
   width: 99vw;
-  height: 60vh;
+  height: 30vh;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
 

@@ -46,7 +46,8 @@ export default function WordCard(props) {
                 setState({ ...state, guess: '', completed: true })
             } else {
                 console.log('reset')
-                alert('Oop! Game will reset.'); 
+                //document.getElementById('alert').play();
+                alert('Lose! Game will reset.'); 
                 setState({ ...state, guess: '', attempt: state.attempt + 1 })
             }
         }
@@ -62,7 +63,5 @@ export default function WordCard(props) {
     );
 }
        
- //alert('Oop! Game will reset.');    {/* <CharacterCard value={c} key={i} activationHandler={activationHandler}/> */}
- //alert('Congratulation! Your answer is correct.');
-
+ 
  
