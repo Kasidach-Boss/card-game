@@ -8,7 +8,7 @@ function About(){
             <header className="App-header">
                 <h1>About us</h1>
             <img alt="Boss" className="photo" src={Boss} />
-                <p>Kasidach Sangthong</p>
+                <p>My name is Kasidach Sangthong.</p>
                 <p>What is his student id?</p> 
                 <WordCard value ="6135512045"/> 
             <tr>
