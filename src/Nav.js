@@ -8,8 +8,18 @@ function Nav(){
         <nav>
             <img src={CoE}  className='pictab' alt=""/>
             <ul>
+                <Link to='/'>
+                    <li>Home</li>
+                </Link>
+            </ul>
+            <ul>
                 <Link to='/EnglishWord'>
                     <li>EnglishWord</li>
+                </Link>
+            </ul>
+            <ul>
+                <Link to='/JapaneseWord'>
+                    <li>JapaneseWord</li>
                 </Link>
             </ul>
             <ul className="nav-links">

@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Nav from './Nav';
 import About from './About';
 import EnglishWord from './EnglishWord';
+import JapaneseWord from './JapaneseWord'
 function App() {
   const Home = () =>(
    
@@ -28,6 +29,7 @@ function App() {
       <Switch>
           <Route path = "/" exact component ={Home}></Route>
           <Route path = "/EnglishWord" component = {EnglishWord}></Route>
+          <Route path = "/JapaneseWord" component ={JapaneseWord}></Route>
           <Route path = "/about" component={About}></Route>
       </Switch>
     </Router>

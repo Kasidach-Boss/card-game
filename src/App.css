@@ -96,3 +96,7 @@ nav-links{
   width: 9vh;
   height: 9vh;
 }
+.photo {
+  height: 400px;
+  width: 600px;
+}
