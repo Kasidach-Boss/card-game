@@ -9,7 +9,7 @@ function JapaneseWord (){
        <div className="App" >
          <header className="App-header">
             <strong><h1>Card Game For 3SA03</h1></strong>
-            <h2>Give you sort all character card to be Japanese romanji word follow this photo.</h2>
+            <h2>Give you sort all character card to be Japanese romaji word follow this photo.</h2>
             <img src={Konnichiwa}  alt=""/>
             <WordCard value = "konnichiwa"/>
             <div className="bgcolor">
