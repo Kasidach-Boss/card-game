@@ -7,9 +7,9 @@ function Nav(){
     return(
         <nav>
             <img src={CoE}  className='pictab' alt=""/>
-            <ul className="nav-links">
-                <Link to='/Home'>
-                    <li >Home</li>
+            <ul>
+                <Link to='/EnglishWord'>
+                    <li>EnglishWord</li>
                 </Link>
             </ul>
             <ul className="nav-links">
