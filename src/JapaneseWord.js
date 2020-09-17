@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Konichiwa from './Konichiwa.gif';
+import Konnichiwa from './Konnichiwa.gif';
 import WordCard from './WordCard';
 
 function JapaneseWord (){
@@ -10,7 +10,7 @@ function JapaneseWord (){
          <header className="App-header">
             <strong><h1>Card Game For 3SA03</h1></strong>
             <h2>Give you sort all character card to be Japanese romanji word follow this photo.</h2>
-            <img src={Konichiwa}  alt=""/>
+            <img src={Konnichiwa}  alt=""/>
             <WordCard value = "konnichiwa"/>
             <div className="bgcolor">
                 <b><p>Creater: Kasidach Sangthong 6135512045</p></b>
