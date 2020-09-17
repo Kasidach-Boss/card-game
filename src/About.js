@@ -2,6 +2,7 @@ import React from 'react';
 import Boss from './Boss.jpg';
 import WordCard from './WordCard';
 import logo from './logo.svg';
+import './App.css' ;
 function About(){
     return(
         <div className="App">

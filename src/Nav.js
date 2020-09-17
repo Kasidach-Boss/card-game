@@ -22,7 +22,7 @@ function Nav(){
                     <li>JapaneseWord</li>
                 </Link>
             </ul>
-            <ul className="nav-links">
+            <ul>
                 <Link to='/about'>
                     <li>About</li>
                 </Link>

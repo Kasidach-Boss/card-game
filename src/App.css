@@ -72,9 +72,6 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:lightgray;
-  width: 3cm;
-  height: 10vh;
   display: contents;
 }
 nav{
@@ -83,15 +80,9 @@ nav{
   align-items: center;
   min-height: 10vh;
   background:rgb(181, 197, 247);
-  color:white;
+  
 }
-nav-links{
-  width: 40%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-}
+
 .pictab {
   width: 9vh;
   height: 9vh;
