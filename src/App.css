@@ -57,18 +57,42 @@
   height: auto!important;
 }
 .bgcolor{
-  color: white;
   background-color: #282c34;
-  width: 99vw;
-  height: 30vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color:lightgray;
+  width: 3cm;
+  height: 10vh;
+  display: contents;
 }
-
-
-
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background:royalblue;
+  color:white;
+}
+nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.pictab {
+  width: 9vh;
+  height: 9vh;
+}
