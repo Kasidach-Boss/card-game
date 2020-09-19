@@ -39,16 +39,16 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `yarn add react-router-dom` 
 **Note: using yarn add react-router-dom to install react-router-dom for use router in react**
-**Note: `How to use firebase`
-1.firebase login
-2.npm run build
-3.firebase init -> choose hosting
- What do you want to use as your public directory? build
- Configure as a single-page app (rewrite all urls to /index.html)? Yes
- File build/index.html already exists. Overwrite? No
-4.firebase deploy 
-5. firebase use 'your project id'
-6.you will get URL**
+**Note: `How to use firebase`**
+**1.firebase login**
+**2.npm run build**
+**3.firebase init -> choose hosting**
+ **What do you want to use as your public directory? build**
+ **Configure as a single-page app (rewrite all urls to /index.html)? Yes**
+ **File build/index.html already exists. Overwrite? No**
+**4.firebase deploy** 
+**5. firebase use 'your project id'**
+**6.you will get URL**
 
 
 ## Learn More
