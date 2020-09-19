@@ -12,12 +12,13 @@ function About(){
                 <p>My name is Kasidach Sangthong.</p>
                 <p>What is his student id?</p> 
                 <WordCard value ="6135512045"/> 
+            <p>My Github</p>
             <tr>
-                    <td>My github for work in lab</td>
+                    
                     <td><a href={"https://github.com/Kasidach-Boss/LabAdvanced1-3SA03"}> คลิกที่นี่ เพื่อไปที่checkpointในห้องแลป</a></td>
             </tr>
             <tr>
-                    <td>My github for work after lab</td>
+                   
                     <td><a href={"https://github.com/Kasidach-Boss/card-game"}> คลิกที่นี่ เพื่อไปที่งานหลังการทดลองของผม</a></td>
             </tr>
                 
