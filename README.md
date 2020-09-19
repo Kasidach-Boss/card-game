@@ -39,7 +39,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### `yarn add react-router-dom` 
 **Note: using yarn add react-router-dom to install react-router-dom for use router in react**
-**Note: `How to use firebase`**
+### **Note: `How to use firebase`**
 **1.firebase login**
 **2.npm run build**
 **3.firebase init -> choose hosting**
